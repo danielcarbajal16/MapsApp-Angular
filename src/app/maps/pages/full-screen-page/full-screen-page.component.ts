@@ -7,7 +7,8 @@ import * as mapboxgl from "mapbox-gl";
 @Component({
   selector: 'maps-full-screen-page',
   templateUrl: './full-screen-page.component.html',
-  styles: [
+  styleUrls: [
+    "./full-screen-page.component.css"
   ]
 })
 export class FullScreenPageComponent implements AfterViewInit {
